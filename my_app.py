@@ -935,8 +935,8 @@ def create_interface(agent: AIOCOAgent):
         with gr.Row(): 
             with gr.Column(scale=3):
                 gr.Markdown("## 🚀 AIOCO - Your AI Companion 💫", elem_id="title")
-                avatar_user = "avatars/user.png" #User icon
-                avatar_bot = "avatars/bot.png" #Bot icon
+                avatar_user = "user.png" #User icon
+                avatar_bot = "bot.png" #Bot icon
 
                 chatbot = gr.Chatbot(
                     [],
